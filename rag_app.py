@@ -129,9 +129,9 @@ def load_resources():
         "all-MiniLM-L6-v2"
     )
 
-    supabase_url = os.getenv("SUPABASE_URL")
-    supabase_key = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
-    groq_api_key = os.getenv("GROQ_API_KEY")
+    supabase_url = st.secrets.get("SUPABASE_URL")
+    supabase_key = st.secrets.get("SUPABASE_SERVICE_ROLE_KEY")
+    groq_api_key = st.secrets.get("GROQ_API_KEY")
 
     if not supabase_url or not supabase_key:
         raise ValueError("Supabase credentials are missing.")
