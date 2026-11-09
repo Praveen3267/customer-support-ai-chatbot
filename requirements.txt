@@ -1,11 +1,10 @@
-
 streamlit
-chromadb
 sentence-transformers
-ollama
+supabase
+python-dotenv
+groq
 numpy
 pandas
 scikit-learn
 scipy
 joblib
-python-dotenv
