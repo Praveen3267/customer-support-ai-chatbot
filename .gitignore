@@ -1,0 +1,36 @@
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+api.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ChromaDB
+chroma_db/
+**/chroma_db/
+
+# Large generated files
+*.npy
+*.safetensors
+*.pt
+*.pth
+
+# Local datasets
+data/raw/
+data/processed/
+notebooks/data/raw/
+notebooks/data/processed/
+
+# IDE
+.vscode/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+```

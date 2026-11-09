@@ -1,0 +1,10 @@
+Metric,Value
+Total Messages,26872.0
+Average Character Length,46.89
+Median Character Length,48.0
+Average Word Count,8.69
+Average Stopword Count,4.2
+Messages Containing Numbers,1089.0
+Messages Containing Special Characters,13546.0
+Messages Containing URLs,0.0
+Messages Containing Email Addresses,0.0

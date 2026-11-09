@@ -1,0 +1,11 @@
+
+streamlit
+chromadb
+sentence-transformers
+ollama
+numpy
+pandas
+scikit-learn
+scipy
+joblib
+python-dotenv
